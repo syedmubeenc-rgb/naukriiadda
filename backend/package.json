@@ -1,0 +1,25 @@
+{
+  "name": "naukriiadda-backend",
+  "version": "1.0.0",
+  "description": "NaukriiAdda backend API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "jobs",
+    "portal",
+    "naukriiadda",
+    "backend"
+  ],
+  "author": "NaukriiAdda",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.1"
+  }
+}
